@@ -1,0 +1,26 @@
+# Secrets: bot token, Telegram API credentials, DB connection strings.
+# Template tracked in the repo: .env.example -> copy it to .env and fill in your own values.
+.env
+
+# Authenticated Telegram session (Telethon) and its SQLite journal/WAL files.
+*.session
+*.session-*
+
+# Cross-process guard so the bot and the CLI Scraping Menu never connect to Telegram at the same time.
+telethon_session.lock
+
+.venv/
+__pycache__/
+*.pyc
+
+# Scraped data (the archive): must not go into a shared/public repository. The DB is rebuilt from
+# these CSVs on every start, so it isn't tracked either - also ignore any local .sql in db/ (e.g. a
+# manual dump you make yourself). Schema migrations live in db/migrations/ and ARE tracked.
+output/
+exports/
+db/*.sql*
+
+# Local operational logs (log/tgarchive-YYYY-MM-DD.log): local-only, created on first run, wiped by
+# Prepare Transfer and clearable from the menu (Clean Logs/History).
+log/
+
