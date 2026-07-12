@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and general discussion
+    url: https://github.com/Dxx-OTG/TGArchive/discussions
+    about: For questions, ideas, or general discussion, please use Discussions instead of opening an issue.
