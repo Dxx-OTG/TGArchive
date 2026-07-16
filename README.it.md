@@ -11,6 +11,48 @@
 
 ---
 
+## 📸 Screenshots
+
+<details>
+<summary>🖼️ <b>Clicca per espandere</b> — screenshot e video demo completo</summary>
+
+> Nomi dei gruppi e username sono sfocati per privacy.
+
+**Il bot** — senza comandi: un solo `/start`, poi tutto è una scheda toccabile, modificata in-place.
+
+| Hub `/start` | Scheda entità |
+|:---:|:---:|
+| ![Hub](https://github.com/user-attachments/assets/1f29e182-07ea-45bf-a00f-257e40a3bf50) | ![Scheda entità](https://github.com/user-attachments/assets/cd7c088e-9ae3-4521-ba59-ea6d01e67e47) |
+
+| Menu Scrape | Menu Data | Scrape completato |
+|:---:|:---:|:---:|
+| ![Menu Scrape](https://github.com/user-attachments/assets/ad1655a8-7324-442b-a7eb-5f5f7b91cc23) | ![Menu Data](https://github.com/user-attachments/assets/242b4870-b4f1-4f4a-81c3-7c7389414750) | ![Scrape completato](https://github.com/user-attachments/assets/b76226f0-30f5-4c52-99c0-36cc1fb2a927) |
+
+**La CLI** — un mirror del bot da terminale: stesso database, stessi comandi.
+
+| Comandi (`help`) | Scrape dal vivo |
+|:---:|:---:|
+| ![Comandi CLI](https://github.com/user-attachments/assets/dc04db31-bbde-4eb3-b0a9-0d7d11ca959a) | ![Scrape CLI](https://github.com/user-attachments/assets/2124a95c-002f-4a26-8e84-e9d1dea172d0) |
+
+**Launcher & backend**
+
+| Menu `TGArchive.bat` | Console del bot — import CSV → DB |
+|:---:|:---:|
+| ![Menu launcher](https://github.com/user-attachments/assets/a5e5dd40-d898-4567-ba68-03ee06e2bf8c) | ![Console bot](https://github.com/user-attachments/assets/d0972a1c-e792-46b2-90c5-e0c314e1d348) |
+
+<details>
+<summary>🎥 <b>Guarda la demo completa</b> — un tour rapido di tutto il bot</summary>
+
+<video src="https://github.com/user-attachments/assets/8cedb2c1-7ac1-4a11-89e8-6adf45b110ed" controls>
+▶️ <a href="https://github.com/user-attachments/assets/8cedb2c1-7ac1-4a11-89e8-6adf45b110ed">Apri il video direttamente</a>
+</video>
+
+</details>
+
+</details>
+
+---
+
 ## ⚠️ Note (leggere prima)
 
 - **Bot privato.** Risponde solo agli ID/username Telegram elencati in `ADMIN_USER_IDS`; ogni altro mittente viene rifiutato in automatico, anche su `/start`.
@@ -21,6 +63,8 @@
 ---
 
 ## 📑 Indice
+
+**[📸 Screenshots](#-screenshots)**
 
 **Installa e avvia**
 1. [Prerequisiti](#-prerequisiti)

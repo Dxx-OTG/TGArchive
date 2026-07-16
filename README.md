@@ -11,6 +11,48 @@
 
 ---
 
+## 📸 Screenshots
+
+<details>
+<summary>🖼️ <b>Click to expand</b> — screenshots and full demo video</summary>
+
+> Group names and usernames are blurred for privacy.
+
+**The bot** — command-free: one `/start`, then everything is a tappable card, edited in place.
+
+| `/start` hub | Entity card |
+|:---:|:---:|
+| ![Hub](https://github.com/user-attachments/assets/1f29e182-07ea-45bf-a00f-257e40a3bf50) | ![Entity card](https://github.com/user-attachments/assets/cd7c088e-9ae3-4521-ba59-ea6d01e67e47) |
+
+| Scrape menu | Data menu | Scrape done |
+|:---:|:---:|:---:|
+| ![Scrape menu](https://github.com/user-attachments/assets/ad1655a8-7324-442b-a7eb-5f5f7b91cc23) | ![Data menu](https://github.com/user-attachments/assets/242b4870-b4f1-4f4a-81c3-7c7389414750) | ![Scrape result](https://github.com/user-attachments/assets/b76226f0-30f5-4c52-99c0-36cc1fb2a927) |
+
+**The CLI** — a terminal mirror of the bot: same database, same commands.
+
+| Commands (`help`) | Live scrape |
+|:---:|:---:|
+| ![CLI commands](https://github.com/user-attachments/assets/dc04db31-bbde-4eb3-b0a9-0d7d11ca959a) | ![CLI scrape](https://github.com/user-attachments/assets/2124a95c-002f-4a26-8e84-e9d1dea172d0) |
+
+**Launcher & backend**
+
+| `TGArchive.bat` menu | Bot console — CSV → DB import |
+|:---:|:---:|
+| ![Launcher menu](https://github.com/user-attachments/assets/a5e5dd40-d898-4567-ba68-03ee06e2bf8c) | ![Bot console](https://github.com/user-attachments/assets/d0972a1c-e792-46b2-90c5-e0c314e1d348) |
+
+<details>
+<summary>🎥 <b>Watch the full demo</b> — a quick tour of the whole bot</summary>
+
+<video src="https://github.com/user-attachments/assets/8cedb2c1-7ac1-4a11-89e8-6adf45b110ed" controls>
+▶️ <a href="https://github.com/user-attachments/assets/8cedb2c1-7ac1-4a11-89e8-6adf45b110ed">Open the video directly</a>
+</video>
+
+</details>
+
+</details>
+
+---
+
 ## ⚠️ Notes (read first)
 
 - **Private bot.** It replies only to the Telegram IDs/usernames listed in `ADMIN_USER_IDS`; every other sender is rejected automatically, including on `/start`.
@@ -21,6 +63,8 @@
 ---
 
 ## 📑 Table of contents
+
+**[📸 Screenshots](#-screenshots)**
 
 **Install & run**
 1. [Prerequisites](#-prerequisites)
